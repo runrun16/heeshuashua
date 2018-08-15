@@ -10,21 +10,21 @@ Binary Search key point:
 '''
 
 def get_insertion_position(nums, target):
-	low = 0
-	high = len(nums) - 1
-	while low <= high:
-		mid = int((low + high) / 2)
-		mid_val = nums[mid]
-		if target == mid_val:
-			return mid
-		elif target > mid_val:
-			low = mid + 1
-		else:
-			high = mid - 1
-	return low
+    low = 0
+    high = len(nums) - 1
+    while low <= high:
+        mid = int((low + high) / 2)
+        mid_val = nums[mid]
+        if target == mid_val:
+            return mid
+        elif target > mid_val:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return low
 
 
 nums = [1, 3, 6, 8]
 targets = [0, 2, 6, 9]
 for target in targets:
-	print(get_insertion_position(nums, target))
+    print(get_insertion_position(nums, target))
