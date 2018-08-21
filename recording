@@ -4,3 +4,6 @@
 20180816,226,implement Stack using Queue, easy,stack
 71,simply path,medium,stack
 468,valid IP addresses, medium, string
+100, same tree, easy, tree
+112, Path sum, easy, tree
+
