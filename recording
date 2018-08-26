@@ -6,4 +6,8 @@
 468,valid IP addresses, medium, string
 100, same tree, easy, tree
 112, Path sum, easy, tree
+20180820, 113,Path Sum II, medium, tree
+144, binary tree preorder traversal, medium, tree
+145, binary tree postorder traversal, hard, tree
+94, binary tree inorder traversal, medium, tree
 
