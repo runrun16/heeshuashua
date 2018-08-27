@@ -10,4 +10,7 @@
 144, binary tree preorder traversal, medium, tree
 145, binary tree postorder traversal, hard, tree
 94, binary tree inorder traversal, medium, tree
-
+20180826,95, unique binary search tree ii, medium, tree
+437, path sum III, medium, tree
+198, house rober, easy, dp
+213, house rober II, medium, dp
